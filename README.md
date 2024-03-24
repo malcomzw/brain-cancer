@@ -60,7 +60,7 @@ Each input x (image) has a shape of (240, 240, 3) and is fed into the neural net
 
 **Why this architecture?**<br>
 
-Firstly, I applied transfer learning using a ResNet50 and vgg-16, but these models were too complex to the data size and were overfitting. Of course, you may get good results applying transfer learning with these models using data augmentation. But, I'm using training on a computer with 6th generation Intel i7 CPU and 8 GB memory. So, I had to take into consideration computational complexity and memory limitations.<br>
+Firstly, I applied transfer learning using a ResNet50 and vgg-16, but these models were too complex to the data size and were overfitting. Of course, you may get good results applying transfer learning with these models using data augmentation. So, I had to take into consideration computational complexity and memory limitations.<br>
 
 So why not try a simpler architecture and train it from scratch. And it worked :)
 
@@ -106,7 +106,7 @@ best_model = load_model(filepath='models/cnn-parameters-improvement-23-0.91.mode
 ```
 
 4. The original data in the folders named 'yes' and 'no'. And, the augmented data in the folder named 'augmented data'.
-
+MOCLAMZW LLC
 
 Contributes are welcome!
 <br>Thank you!
